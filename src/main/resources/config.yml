@@ -1,0 +1,28 @@
+settings:
+  # データ保存設定です
+  # デフォルト → yml-file
+  # yml-file → .yml保存されます (pluginより0.1%ぐらい重い but 消滅の可能性0%)
+  # plugin → プラグイン内で保存されます (reloadコマンドで消滅の可能性100%)
+  how_save_dates: "yml-file"
+
+  # データ保存の書き方です
+  # デフォルト → UUID
+  # UUID → プレイヤーのUUIDで保存されます (名前を変えても全然バグらない but 運営からすると見にくいかも)
+  # MCID → プレイヤーの名前で保存されます (名前を変えた日だけ、バグります)
+  how_write_dates: "UUID"
+
+  # 発動ターゲットの権限条件です
+  # デフォルト → daylogin.staff
+  permission: "daylogin.staff"
+
+  # 発動時に使われるコマンドを設定できます
+  # commands: [] で無効化できます
+  commands: []
+
+  # 発動の際に送られるメッセージを設定できます
+  # messages: [] で無効化できます
+  messages: []
+
+  # 発動の際にテレポートされる先を設定できます
+  # teleport: "none" で無効化できます
+  teleport: "none"

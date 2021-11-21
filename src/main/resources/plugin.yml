@@ -1,0 +1,11 @@
+name: DayLogin
+version: '${project.version}'
+main: daylogin.daylogin.DayLogin
+api-version: 1.15
+loadbefore: [DayLogin]
+description: Azisaba life plugin
+website: azisaba.net
+
+commands:
+  daylogin:
+    aliases: [daylogin,dl,day,login]
